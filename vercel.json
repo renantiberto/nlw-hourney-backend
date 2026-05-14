@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/index.ts": {
+      "includeFiles": "prisma/dev.db"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
+}
